@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build and cache directories
+dist/
+build/
+.next/
+out/
+.cache/
+.turbo/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+target/
